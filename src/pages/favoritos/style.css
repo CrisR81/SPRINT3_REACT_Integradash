@@ -6,7 +6,6 @@
 }
 
 :root {
-    
     --azul_padrao: #003D73;
     --fundo_pagina: #ECF1F8;
     --branco: #fff;
@@ -26,47 +25,29 @@
     background-color:var(--fundo_pagina)
 }    */
 
-
-
-
-
-
-
-
-
-
-
-
 .edicao_fav_meio_pag {
-font-weight: 700;
-margin-top: 81px;
-margin-left: 25px;
-font-size: 25PX;
+    font-weight: 700;
+    margin-top: 81px;
+    margin-left: 25px;
+    font-size: 25PX;
 }
 
 .edicao_itens_salvos_meio_pag {
-
-margin-top: 25px;
-margin-left: 25px;
-font-size: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 20px;
 }
 
 .botao_add_desktop {
     width: 102px;
     margin-left: 25px;
     margin-top: 30px;
-
 }
-
-
-
-
-
 
 .pagina_mobile {
     display: none;
-
 }
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                        M O B I L E
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -84,7 +65,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     height: 100vh;
     width: 100px;
 }
-
 
 .segunda_secao_texto_mobile_e_caixa {
     background-color: var(--fundo_pagina);
@@ -119,7 +99,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     margin-top: 30px;
 }
 
-
 .teste{
     display: flex;
 }
@@ -136,11 +115,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     padding-left: 10px;
 }
 
-
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   1
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 @media screen and (max-width: 820px) {
 
@@ -154,9 +131,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
     .botao_add_mobile {
         width: 90px;
-  
     }
-
 }
  
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -197,15 +172,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
     .texto_favoritos_mobile {
         position: relative ;
-        top: 2px;
-        
+        top: 2px;    
     }
 }
  
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   3
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 @media screen and (max-width: 550px) {
 
@@ -231,7 +204,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     .Salve_favoritos_mobile {
         position: relative;
         top: 17px;
-     }
+    }
 
      .botao_add_mobile {
         width: 90px;
@@ -245,11 +218,4 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
         top: 35px;
     }
 
-
-
 }
-
-
-
-
- 
