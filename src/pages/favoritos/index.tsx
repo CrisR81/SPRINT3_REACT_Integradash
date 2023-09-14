@@ -1,67 +1,83 @@
 import './style.css'
 
-import botao_add_mobile from '../../assets/img/mOBILE/botao add mobile.png'
-import botao_add_desktop from '../../assets/img/botao add.png'
-
+import Planta_Curitiba_Escolha from '../../assets/img/Planta_Curitiba_Escolha.png'
+import Planta_Taubate_Escolha from '../../assets/img/Planta_Taubate_Escolha.png'
+import Planta_Anchieta_Escolha from '../../assets/img/Planta_Anchieta_Escolha.png'
 
 function Favoritos() {
 
-
   return (
+
     <>
 
-      <main>
-        <section className="pagina_desktop">
-          <div className="primeira_secao_menu_esquerdo">
-            <div className="corpo_do_site_meio">
-              <p className="edicao_fav_meio_pag">Favoritos</p>
-              <p className="edicao_itens_salvos_meio_pag">Itens salvos</p>
-              <a href="">
-                <img src= {botao_add_desktop}
-                  className="botao_add_desktop"
-                  alt="botão adicionar favoritos"
-                />
-              </a>
-            </div>
-            <div className="corpo_pag_usuario"></div>
-          </div>
-        </section>
-        {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-        {/*                    MOBILE                   */}
-        {/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */}
-        <section className="pagina_mobile">
-            <div className="pagina_mobile_fav">
-              <div className="segunda_secao_texto_mobile_e_caixa">
-                <p className="texto_favoritos_mobile container_mobile ">Favoritos</p>
-                <p className="Salve_favoritos_mobile formatacao_textos_mobile container_mobile">
-                  Salve aqui suas preferências
-                </p>
-                <a href="#">
-                  <img src={botao_add_mobile}
-                    className="botao_add_mobile container_mobile"
-                    alt="botão adicionar favoritos"
-                  />
-                </a>
-                <div className="teste3">
-                  <p className="Vc_ainda_favoritos_mobile formatacao_textos_mobile container_mobile">
-                    Você ainda não possui nada salvo aqui.
-                  </p>
-                  {/* <p class="teste2">tttt</p> */}
-                </div>
-                <div className="teste">
-                  <p className="clique_no_botao_mobile formatacao_textos_mobile container_mobile">
-                    Clique no botão + para adicionar suas preferências.
-                  </p>
-                  {/* <p class="teste2">tttt</p> */}
-                </div>
-              </div>
-            </div>
-        </section>
-      </main>
+      <section className="pagina_desktop">
 
+        <div className="corpo_do_site_meio">
+
+          <p className="edicao_fav_meio_pag">Favoritos</p>
+          <p className="edicao_itens_salvos_meio_pag">Itens salvos</p>
+
+          <div className="fundo_tela_arquivos">
+
+            <div className="parte_esquerda_seletor">
+
+              <div className="primeira_coluna">
+                <p className="selecione_sua_planta">Selecione sua planta:</p>
+
+                <form>
+
+                  <div className="menu_veiculos">
+
+                    <div className="seletor_curitiba">
+                      <input type="radio" id="seletor_curitiba" name="seletor_curitiba" />
+                      <img className="carro_curitiba_seletor" src={Planta_Curitiba_Escolha} alt="" />
+                    </div>
+
+                    <div className="seletor_taubate">
+                      <input type="radio" id="seletor_taubate" name="seletor_taubate" />
+                      <img className="carro_taubate_seletor" src={Planta_Taubate_Escolha} alt="" />
+                    </div>
+
+                    <div className="seletor_anchieta">
+                      <input type="radio" id="seletor_anchieta" name="seletor_anchieta" />
+                      <img className="carro_anchieta_seletor" src={Planta_Anchieta_Escolha} alt="" />
+                    </div>
+
+                  </div>
+
+                </form>
+
+              </div>
+
+            </div>
+
+            <div className="parte_direita_botao_seletor_visualizacao">
+
+              <div>
+
+                <div className="testebotao">
+                  <select className="botao_seletor_visualizacao" name="seletor_fav" id="seletor_fav">
+                    <option className="container_setor" value="">Assunto</option>
+                    <option value="">Recentes</option>
+                    <option className="testetamanho" value="">Ordem Alafabética</option>
+                  </select>
+                </div>
+                <div className="local_dos_arquivos"></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
 
     </>
+    
   )
+
 }
 
 export default Favoritos
