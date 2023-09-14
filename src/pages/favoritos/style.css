@@ -6,7 +6,6 @@
 }
 
 :root {
-    
     --azul_padrao: #003D73;
     --fundo_pagina: #ECF1F8;
     --branco: #fff;
@@ -35,105 +34,30 @@
     width: 100vw;
     height: 100vh;
     background-color:var(--fundo_pagina)
-}   
+}    */
 
-.logo_integradash_desktop {
-    width: 40px;
-    margin: 30px 10px 0 20px;
 
-}
 
-.espaco_menu_pequeno1 {
-    background-color: var(--azul_padrao);
-    height: 9vh;
-    width: 50px;
-}
 
-.espaco_menu_pequeno2 {
-    background-color: var(--azul_padrao);
-    height: 36vh;
-    width: 50px;
-}
 
-.menu_parte_superior  {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    margin-left: 10PX;
-}
 
-.menu_parte_superior img {
-    width: 70%;
-}
 
-.menu_parte_inferior {
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    margin-left: 10PX;
-}
 
-.menu_parte_inferior img {
-    width: 70%;}
 
-.menu_parte_inferior .botao_sair {
-    margin-left: 7px;
-}
 
-.hover1:hover {
-    background-color: rgb(55, 139, 218);
 
-    /* width: 30px;
-    height: 30px; */
-}
-
-.edicao_favoritos_esq_gde {
-    font-weight: 700;
-    color: var(--branco);
-    margin-top: 81px;
-    margin-left: 25px;
-    font-size: 25PX;
-}
-
-.edicao_escolha {
-    color: var(--branco);
-    margin-top: 25px;
-    margin-left: 25px;
-    font-size: 20px;
-}
-
-select {
-
-    margin-top: 15px;
-    background-color: #EAEAEA;
-    color: #555555;
-    font-weight: 900;
-    font-size: 15px;
-    width: 65%;
-}
-
-option {
-    color: #555; 
-    font-weight: 500;  
-    background-color: #d9d7d7;
-}
 
 .edicao_fav_meio_pag {
-
-padding-top: 50px ;
 font-weight: 700;
-/* margin-top: 81px; */
-margin-left: 60px;
+margin-top: 81px;
+margin-left: 25px;
 font-size: 25PX;
 }
 
 .edicao_itens_salvos_meio_pag {
 
 margin-top: 25px;
-margin-left: 60px;
+margin-left: 25px;
 font-size: 20px;
 }
 
@@ -141,140 +65,18 @@ font-size: 20px;
     width: 102px;
     margin-left: 25px;
     margin-top: 30px;
+
 }
 
-.caixa_perfil_usuario {
-    background-color: #fff;
-    width: 60%;
-    height: 8%;
-    margin-top: 81px;
-    margin-left: 40px;
-    border-radius: 11px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
 
-.edicao_foto_usuario {
-    width: 40px;
-    border-radius: 7px;
-}
 
-.seta_caixa_perfil {
-    width: 6%;
-    height: 13%;
-    margin-right: 7px;
-    margin-bottom: 15px;
-}
 
-.tamanho_nome_perfil{
-    width: 80px;
-    font-weight: 700;
-    font-size: 15px;
-}
+
 
 .pagina_mobile {
     display: none;
-}
-
-
-.fundo_tela_arquivos {
-    width: 90vw;
-    height: 69vh;
-    background-color: var(--fundo_caixa_seletora);
-    margin-left: 60px;
-    margin-top: 25px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    display: flex;
-    fill: #EAEAEA;
-    filter: drop-shadow(1.5px 1.5px 3px rgba(0, 0, 0, 0.25));
 
 }
-
-.seletor_curitiba {
-    display: flex;
-    gap: 5px;
-    margin-left: 20px;
-}
-
-.carro_curitiba_seletor{
-    width: 70%;
-}
-
-.seletor_taubate {
-    display: flex;
-    gap: 5px;
-    margin-left: 20px;
-}
-
-.carro_taubate_seletor{
-    width: 70%;
-}
-
-.seletor_anchieta {
-    display: flex;
-    gap: 5px;
-    margin-left: 20px;
-}
-
-
-.carro_anchieta_seletor{
-    width: 70%;
-}
-
-.testetamanho{
-font-size: 14px;
-}
-
-.menu_veiculos {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 20px;
-    margin-top: 34px;
-
-}
-
-.parte_esquerda_seletor {
-    display: flex;
-    flex-direction: column;
-}
-
-.botao_seletor_visualizacao {
-width: 160px;
-height: 30px;
-border-radius: 5px;
-border: none;
-padding-left: 6px;
-font-weight: 500;
-fill: #EAEAEA;
-filter: drop-shadow(1.5px 1.5px 3px rgba(0, 0, 0, 0.25));
-margin-top: 25PX;
-}
-
-.local_dos_arquivos {
-    width: 70vw;
-    height: 52vh;
-    background-color: var(--branco);
-    border: 1px solid rgb(183, 183, 183);
-    margin-top: 22px;
-    overflow-y: scroll;
-}
-
-.selecione_sua_planta {
-padding-top: 20px;
-width: 200px;
-font-weight: 380px;
-font-size: 20px;
-margin-left: 45px;
-margin-bottom: 30px;
-}
-
-.primeira_coluna{
-    width: 300px;
-}
-
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                        M O B I L E
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -304,17 +106,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     width: 100px;
 }
 
-.menu_direito_mobile{
-    background-color: var(--azul_padrao);
-    width: 110
-    px;
-    height: 85vh;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
- }
 
 .segunda_secao_texto_mobile_e_caixa {
     background-color: var(--fundo_pagina);
@@ -349,25 +140,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     margin-top: 30px;
 }
 
-.menu_hamburguer{
-    margin-top: 25px;
-    width: 35px;
-}
-
-.edicao_foto_usuario2{
-    width: 40px;
-    border-radius: 7px;
-    margin-top: 25PX;
-}
-
-.edicao_configuracao_mobile {
-    margin-top: 45PX;
-}
-
-.botao_sair_mobile {
-    margin-left: 7PX;
-    margin-bottom: 30px;
-}
 
 .teste{
     display: flex;
@@ -554,8 +326,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
             }
 }
- 
-   
+
+
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo2
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
@@ -764,7 +536,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
 
-
 @media screen and (max-width: 600px) {
 
     .local_dos_arquivos {
@@ -798,11 +569,11 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
       display: unset;
     }
 
-    .local_dos_arquivos {
+    .botao_add_mobile {
+        width: 90px;
+  
+    }
 
-        width: 45vw;
-
-            }
 }
   */
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -854,7 +625,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ */
 
     .texto_favoritos_mobile {
         position: relative ;
-        top: 8px;
+        top: 2px;
         
     }
 } */
@@ -862,7 +633,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ */
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 /* @media screen and (max-width: 550px) {
 
@@ -875,28 +645,38 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     }
 
     .Vc_ainda_favoritos_mobile {
-        width: 200px;
+        width: 220px;
+        position: relative ;
+        top: 28px;
     }
 
-    .segunda_secao_texto_mobile_e_caixa {
-        background-color: var(--fundo_pagina);
-        width: 100vh;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-around ;
-        PADDING-top: 32PX;
+    .texto_favoritos_mobile {
+        position: relative ;
+        top: 12px;
     }
+
+    .Salve_favoritos_mobile {
+        position: relative;
+        top: 17px;
+     }
+
+     .botao_add_mobile {
+        width: 90px;
+        position: relative;
+        top: 22px     
+    }
+
+    .clique_no_botao_mobile {
+        width: 300px; 
+        position: relative;
+        top: 35px;
+    }
+
+
+
 }
-  */
-/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-               OBSERVAÇÕES GERAIS 
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-- hover fica malucom qdo desliga
-    
-        a:hover {
-        display: none;
-    }
-    
-*/
+
+
+
+ 
