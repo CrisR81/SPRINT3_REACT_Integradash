@@ -6,6 +6,7 @@
 }
 
 :root {
+    
     --azul_padrao: #003D73;
     --fundo_pagina: #ECF1F8;
     --branco: #fff;
@@ -34,255 +35,241 @@
     width: 100vw;
     height: 100vh;
     background-color:var(--fundo_pagina)
-}    */
+}   
 
+.logo_integradash_desktop {
+    width: 40px;
+    margin: 30px 10px 0 20px;
 
+}
 
+.espaco_menu_pequeno1 {
+    background-color: var(--azul_padrao);
+    height: 9vh;
+    width: 50px;
+}
 
+.espaco_menu_pequeno2 {
+    background-color: var(--azul_padrao);
+    height: 36vh;
+    width: 50px;
+}
 
+.menu_parte_superior  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-left: 10PX;
+}
 
+.menu_parte_superior img {
+    width: 70%;
+}
 
+.menu_parte_inferior {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-left: 10PX;
+}
 
+.menu_parte_inferior img {
+    width: 70%;}
 
+.menu_parte_inferior .botao_sair {
+    margin-left: 7px;
+}
 
+.hover1:hover {
+    background-color: rgb(55, 139, 218);
+}
 
+.edicao_favoritos_esq_gde {
+    font-weight: 700;
+    color: var(--branco);
+    margin-top: 81px;
+    margin-left: 25px;
+    font-size: 25PX;
+}
+
+.edicao_escolha {
+    color: var(--branco);
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+select {
+    margin-top: 15px;
+    background-color: #EAEAEA;
+    color: #555555;
+    font-weight: 900;
+    font-size: 15px;
+    width: 65%;
+}
+
+option {
+    color: #555; 
+    font-weight: 500;  
+    background-color: #d9d7d7;
+}
 
 .edicao_fav_meio_pag {
-font-weight: 700;
-margin-top: 81px;
-margin-left: 25px;
-font-size: 25PX;
+
+    padding-top: 50px ;
+    font-weight: 700;
+    margin-left: 60px;
+    font-size: 25PX;
 }
 
 .edicao_itens_salvos_meio_pag {
 
-margin-top: 25px;
-margin-left: 25px;
-font-size: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+    font-size: 20px;
 }
 
 .botao_add_desktop {
     width: 102px;
     margin-left: 25px;
     margin-top: 30px;
-
 }
 
+.caixa_perfil_usuario {
+    background-color: #fff;
+    width: 60%;
+    height: 8%;
+    margin-top: 81px;
+    margin-left: 40px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.edicao_foto_usuario {
+    width: 40px;
+    border-radius: 7px;
+}
 
+.seta_caixa_perfil {
+    width: 6%;
+    height: 13%;
+    margin-right: 7px;
+    margin-bottom: 15px;
+}
 
-
+.tamanho_nome_perfil{
+    width: 80px;
+    font-weight: 700;
+    font-size: 15px;
+}
 
 .pagina_mobile {
     display: none;
-
-}
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                       M O B I L E
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-.pagina_mobile {
-    background-color: var(--fundo_pagina);
 }
 
-.terceira_secao_menu_mobile {
-    background-color: var(--fundo_pagina);
-
-}
-
-.logo_mobile{
-    width: 40px;
-    margin: 30px 10px 0px 20px;
-    height: 38px;
-}
-
-.pagina_mobile_fav{
+.fundo_tela_arquivos {
+    width: 90vw;
+    height: 69vh;
+    background-color: var(--fundo_caixa_seletora);
+    margin-left: 60px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border-radius: 10px;
     display: flex;
+    fill: #EAEAEA;
+    filter: drop-shadow(1.5px 1.5px 3px rgba(0, 0, 0, 0.25));
 }
 
-.primeira_secao_logo_mobile {
-    background-color: var(--fundo_pagina);
-    height: 100vh;
-    width: 100px;
+.seletor_curitiba {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
 }
 
+.carro_curitiba_seletor{
+    width: 70%;
+}
 
-.segunda_secao_texto_mobile_e_caixa {
-    background-color: var(--fundo_pagina);
-    width: 100vh;
-    height: 100vh;
+.seletor_taubate {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.carro_taubate_seletor{
+    width: 70%;
+}
+
+.seletor_anchieta {
+    display: flex;
+    gap: 5px;
+    margin-left: 20px;
+}
+
+.carro_anchieta_seletor{
+    width: 70%;
+}
+
+.testetamanho{
+    font-size: 14px;
+}
+
+.menu_veiculos {
     display: flex;
     flex-direction: column;
-    justify-content:space-around ;
+    gap: 10px;
+    margin-left: 20px;
+    margin-top: 34px;
 }
 
-.texto_favoritos_mobile {
-    font-size: 30px;
-    margin-top: 150px;
+.parte_esquerda_seletor {
+    display: flex;
+    flex-direction: column;
 }
 
-.Salve_favoritos_mobile {
-    margin-top: 30px;
+.botao_seletor_visualizacao {
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 6px;
+    font-weight: 500;
+    fill: #EAEAEA;
+    filter: drop-shadow(1.5px 1.5px 3px rgba(0, 0, 0, 0.25));
+    margin-top: 25PX;
 }
 
-.botao_add_mobile {
-    width: 80px;
-    margin-top: 60px;
-    margin-bottom: 50px;
+.local_dos_arquivos {
+    width: 70vw;
+    height: 52vh;
+    background-color: var(--branco);
+    border: 1px solid rgb(183, 183, 183);
+    margin-top: 22px;
+    overflow-y: scroll;
 }
 
-.formatacao_textos_mobile {
+.selecione_sua_planta {
+    padding-top: 20px;
+    width: 200px;
+    font-weight: 380px;
     font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 30px;
 }
 
-.clique_no_botao_mobile {
-    margin-bottom: 250px;
-    margin-top: 30px;
-}
-
-
-.teste{
-    display: flex;
-}
-
-.teste3 {
-    display: flex;
-}
-
-.teste2{
-    color: var(--fundo_pagina);
-}
-
-.icone_mob {
-    width: 25px;
-}
-    
-.icone_mob:hover {
-    background-color: rgb(55, 139, 218);
-}
-
-.hover_fav {
-background-color: rgb(55, 139, 218);
-}
-
-.pagina_mobile_fav {
-
-    width: 100%;
-    height: 100%;
-    background-color: var(--fundo_pagina);
-}
-
-
-
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                R E S P O N S I V I D A D E  1
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-/* @media screen and (max-width: 1200px) { */
-/* @media screen and (max-width: 780px) {
-    .caixa_perfil_usuario {
-        background-color: white;
-        width: 150px;
-        height: 63px;
-        border-radius: 10px;
-        display: flex;
-        font-weight: 600;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 11px;
-        margin-right: 15px;
-    }
-
-    .edicao_foto_usuario {
-        width: 37px;
-        border-radius: 7px;
-        margin-left: 5px;
-    }
-
-    .tamanho_nome_perfil{
-        width: 80px;
-        font-weight: 700;
-        font-size: 14px;
-        margin-left: 3px;
-    }
-
-    .seta_caixa_perfil {
-        width: 6%;
-        height: 13%;
-        margin-right: 10px;
-        margin-bottom: 5px;
-    }
-
-    .pagina_mobile {
-        display: none;
-    }
-}
-        
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               R E S P O N S I V O   2
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-/* 
-@media screen and (max-width: 1100px) {
-    .caixa_perfil_usuario {
-        background-color: white;
-        width: 140px;
-        height: 63px;
-        border-radius: 10px;
-        display: flex;
-        font-weight: 700;
-        align-items: center;
-        justify-content: space-around;
-        font-size: 13px;
-        margin-right: 40px;
-    }
-
-    .edicao_foto_usuario {
-        width: 34px;
-        border-radius: 7px;
-        margin-left: 5px;
-    }
-
-    .tamanho_nome_perfil{
-        width: 80px;
-        font-weight: 700;
-        font-size: 14px;
-        margin-LEFT: 5PX ;        
-    }
-
-    .seta_caixa_perfil {
-        width: 6%;
-        height: 13%;
-        margin-right: 11px;
-        margin-bottom: 9px;
-    }
-
-    .pagina_mobile {
-        display: none;
-    }
-} */ 
- 
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               R E S P O N S I V O   3
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-/* 
-@media screen and (max-width: 990px) {
-
-    .pagina_mobile {
-      display: none;
-    }
-
-    select{
-        width: 162px;
-    }
+.primeira_coluna{
+    width: 300px;
 }
 
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 @media screen and (max-width: 1600px) {
 
@@ -293,13 +280,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
                 }
     }
      
-
-
-
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 @media screen and (max-width: 1530px) {
 
@@ -310,13 +293,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
                 }
     }
      
-
-
-     
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 @media screen and (max-width: 1460px) {
 
@@ -326,13 +305,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
             }
 }
-
-
+    
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo2
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 1390px) {
 
@@ -342,15 +318,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
 
-
-   
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo3
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 1320px) {
 
@@ -360,14 +331,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
-
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo3
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 1250px) {
 
@@ -377,14 +344,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
 
-
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo3
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 1160px) {
 
@@ -394,14 +357,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
-
 
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo4
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 1090px) {
 
@@ -416,8 +375,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
                R E S P O N S I V O   novo5
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
 
-
-
 @media screen and (max-width: 1020px) {
 
     .local_dos_arquivos {
@@ -426,14 +383,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
 
-
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 950px) {
 
@@ -443,15 +396,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
-
-    
-
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 880px) {
 
@@ -461,15 +409,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
-
-
-
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 810px) {
 
@@ -480,11 +423,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
                 }
     }
      
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 740px) {
 
@@ -495,12 +436,9 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
                 }
     }
      
-
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 670px) {
 
@@ -510,14 +448,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
 
-
-    /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
 
 @media screen and (max-width: 635px) {
 
@@ -527,14 +461,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
 
-
-
-   /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                R E S P O N S I V O   novo6
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
 
 @media screen and (max-width: 600px) {
 
@@ -544,139 +474,3 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
     
                 }
     }
-     
-
-
-
-
-
-
-
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               R E S P O N S I V O   4
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
-/* 
-
-@media screen and (max-width: 768px) {
-
-    .pagina_desktop {
-      display: none;
-    }
-
-    .pagina_mobile {
-      display: unset;
-    }
-
-    .botao_add_mobile {
-        width: 90px;
-  
-    }
-
-}
-  */
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               R E S P O N S I V O   5
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */ */
-
-/* 
-@media screen and (max-width: 675px) {
-
-    .pagina_desktop {
-      display: none;
-    }
-
-    .pagina_mobile {
-      display: unset;
-    }
-
-    .clique_no_botao_mobile {
-        width: 300px; 
-        position: relative;
-        top: 8px;
-    }
-
-    .botao_add_mobile {
-        width: 80px;
-        position: relative;
-        top: 8px     
-    }
-
-    .segunda_secao_texto_mobile_e_caixa {
-        background-color: var(--fundo_pagina);
-        width: 100vh;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-around ;
-        PADDING-top: 8PX;
-    }
-
-    .Salve_favoritos_mobile {
-       position: relative;
-       top: 8px;
-    }
-
-    .Vc_ainda_favoritos_mobile {
-        position: relative;
-        top: 8px;
-    }
-
-    .texto_favoritos_mobile {
-        position: relative ;
-        top: 2px;
-        
-    }
-} */
- 
-/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-               R E S P O N S I V O   6
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-/* @media screen and (max-width: 550px) {
-
-    .pagina_desktop {
-      display: none;
-    }
-
-    .pagina_mobile {
-      display: unset;
-    }
-
-    .Vc_ainda_favoritos_mobile {
-        width: 220px;
-        position: relative ;
-        top: 28px;
-    }
-
-    .texto_favoritos_mobile {
-        position: relative ;
-        top: 12px;
-    }
-
-    .Salve_favoritos_mobile {
-        position: relative;
-        top: 17px;
-     }
-
-     .botao_add_mobile {
-        width: 90px;
-        position: relative;
-        top: 22px     
-    }
-
-    .clique_no_botao_mobile {
-        width: 300px; 
-        position: relative;
-        top: 35px;
-    }
-
-
-
-}
-
-
-
-
- 
